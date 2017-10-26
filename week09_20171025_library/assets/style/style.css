@@ -1,0 +1,26 @@
+@import 'https://fonts.googleapis.com/css?family=Gochi+Hand';
+
+* { margin:0; padding:0;}
+body {
+	color: #000;
+	font-family: 'Gochi Hand';
+	font-size:100%;
+	background: black;
+}
+
+h1 {
+	color: #FFFFFF;
+	margin-top:50px;
+	margin-bottom: 30px;
+	font-size: 28pt;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#box{
+	margin-left: 25%;
+
+	width: 50%;
+	height: 50%;
+	text-align:center;
+}
