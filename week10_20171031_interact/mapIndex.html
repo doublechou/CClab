@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
+   <script src="assets/js/jquery-3.2.1.min.js"> </script>
   <link rel="stylesheet" type="text/css" href="assets/style/mapStyle.css">
-  <script src="assets/js/jquery-3.2.1.min.js"> </script>
-  <script src="assets/js/a.js"> </script>
+  <link href="assets/style/hover-min.css" rel="stylesheet">
+ 
   <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDN_VhmccnVECGAgr8BahLjq6fqiZN-9h0 &callback=initMap"> </script>
-  
+  <script src="assets/js/script.js"> </script>
 </head>
 
 
 
 
   <body>
-    <h1 style="text-align: center;">Help Find Your Best Travel</h1>
-    
-    <ul id="list"></ul>
-    
-    <div id="map"></div>   
-    
-    <div id="questionForm">
-      <button id = 'A' type = 'button'>Find the best 5 cities </button>
-    </div>
-
-    
-    
+    <div id="background">
+      <h1 style="text-align: center;">Help Find Your Best Travel</h1>
+      
+      <ul id="list"></ul>
+      
+      <div id="map"></div>  
+      
+      <div id="questionForm">
+        <button id = "searchCity" type = 'button' class="hvr-buzz">Find the best 3 cities </button>
+        <button id="zoom_up" type='button' class="hvr-buzz" >Zoom In</button>
+      </div>
+    </div>  
   </body>
-
-
 </html>
